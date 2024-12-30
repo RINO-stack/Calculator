@@ -1,0 +1,49 @@
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator{
+    width: 350px;
+    height: 450px;
+    border: 1.5px solid black;
+    background-color: chartreuse;
+    border-radius: 7px;
+}
+.calculator h3{
+    text-align: center;
+}
+.inputbox{
+    width: 90%;
+    margin-left: 12px;
+    margin-top: 5px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: medium;
+    font-weight: bold;
+}
+.buttons{
+    margin: 15px;
+}
+.btn{
+    height: 50px;
+    width: 65px;
+    margin: 5px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.btnequals{
+    width: 100%;
+    height: 50px;
+    margin-top: 15px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+}
